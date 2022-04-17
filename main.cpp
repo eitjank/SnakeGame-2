@@ -141,7 +141,7 @@ void Logic()
     if(x > width || x <= 0 || y > height-1 || y <= 0) gameOver = true;
 
     //Game without walls
-    //if(x >= width + 1)x = 1; else if(x <= 0)x = width - 1;
+    //if(x >= width + 1)x = 1; else if(x <= 0)x = width;
     //if(y >= height)y = 1; else if(y <= 0)y = height - 1;
 
     for(int i = 0; i < nTail; i++)
